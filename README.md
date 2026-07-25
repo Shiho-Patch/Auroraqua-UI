@@ -21,16 +21,17 @@ Release中提供了MacOS和Windows版本的Tauri App。<br />
 🔴对于简体中文用户，demo中图片视频素材使用了来自YouTube和BlaueSky等网站的链接，请自觉使用魔法以正常加载资源。
 
 # Components Demos(in /case3):
-MeTube(Video Streaming Website, imitate Youtube Layout)
-<img width="2772" height="1740" alt="MeTube-Demo" src="https://github.com/user-attachments/assets/fca21918-2a8b-49f2-a0e4-57836eb5de37" />
 Messenger(imitate Discord)
 <img width="2594" height="1574" alt="Chat-Demo" src="https://github.com/user-attachments/assets/aa770ee9-2c0d-46a6-8758-9026e793af72" />
+MeTube(Video Streaming Website, imitate Youtube Layout)
+<img width="2772" height="1740" alt="MeTube-Demo" src="https://github.com/user-attachments/assets/fca21918-2a8b-49f2-a0e4-57836eb5de37" />
 Social Media(imitate BlueSky(https://github.com/bluesky-social/social-app) Layout)
-<img width="2772" height="1740" alt="Social-Demo" src="https://github.com/user-attachments/assets/f225ffbd-45fc-4106-9efc-6ba2c6005003" />
-<img width="2170" height="1600" alt="PrysmProfile" src="https://github.com/user-attachments/assets/9bf4bd18-102c-46c8-9864-b5c63f2cfbd0" />
-<img width="2776" height="1740" alt="PrysmSettings" src="https://github.com/user-attachments/assets/7f30c42b-fae0-4bfd-96cf-519cbe1fba4c" />
+<img width="2550" height="1544" alt="Social-Demo" src="https://github.com/user-attachments/assets/4085cffd-8f67-460d-a818-6b2dd015a1a2" />
+<img width="2044" height="1488" alt="Social-Profile-Demo" src="https://github.com/user-attachments/assets/63e1d07c-fe9e-4bd9-bf7b-e38f89609348" />
+<img width="2398" height="1468" alt="Settings-Demo" src="https://github.com/user-attachments/assets/3b5bb632-9baf-4b8c-9791-4a1fb3ae76aa" />
+
 Music
-<img width="2772" height="1740" alt="Music-Demo" src="https://github.com/user-attachments/assets/dd51d783-edc5-4061-8a52-63538a5c9cad" />
+<img width="2588" height="1560" alt="Music-Demo" src="https://github.com/user-attachments/assets/57d1cca5-9a29-49d9-a190-f347b3362c5d" />
 
 Dashboard
 <img width="2772" height="1740" alt="Dashboard-Demo" src="https://github.com/user-attachments/assets/66cec11e-59b1-4998-bf67-2c21e36cda77" />
@@ -38,9 +39,14 @@ Dashboard
 
 Video Show:
 
-https://github.com/user-attachments/assets/2552c626-2da6-4cd7-a491-7ae48a026ffd
+https://github.com/user-attachments/assets/a890538f-b194-48a9-b6c7-4d7d84eab832
 
-https://github.com/user-attachments/assets/24b60935-ac95-42ff-ac40-a1ff3c75f172
+https://github.com/user-attachments/assets/b63805fa-271e-422f-9b45-f598c91b5227
+
+https://github.com/user-attachments/assets/1eb77394-0762-4a02-b2c3-9ccda6f729c1
+
+
+
 
 Markdown Viewer & Editor
 <img width="2772" height="1740" alt="Markdown-Demo" src="https://github.com/user-attachments/assets/370f889f-69af-4d35-95c4-a68357c5b60c" />
@@ -60,11 +66,11 @@ Management Page
 <img width="2776" height="1740" alt="Management" src="https://github.com/user-attachments/assets/a118cefd-4027-43a0-9830-500848d5bf10" />
 
 
-# Example1(/case1):
-<img width="2774" height="1740" alt="case1" src="https://github.com/user-attachments/assets/4a3944a1-9638-435d-8873-9f9cf7ea668f" />
-
 # Example2(/case2):
 <img width="1728" height="1080" alt="rec2020-0002" src="https://github.com/user-attachments/assets/40c8f7ac-8daa-4ad2-9964-572f99c5b286" />
+
+# Example1(/case1):
+<img width="2774" height="1740" alt="case1" src="https://github.com/user-attachments/assets/4a3944a1-9638-435d-8873-9f9cf7ea668f" />
 
 # Init Page(/init):
 <img width="2776" height="1740" alt="InitAurora" src="https://github.com/user-attachments/assets/df3f1f62-94cd-4c87-a3cc-c4a67851b4a3" />
