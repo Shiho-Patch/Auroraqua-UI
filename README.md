@@ -6,12 +6,16 @@
 [![React](https://img.shields.io/badge/React-18+-61dafb.svg)](https://reactjs.org/)
 [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.0+-38bdf8.svg)](https://tailwindcss.com/)
 
-「Aurorαqua」 a web UI template inspired by Apple LiquidGlass Design and Iceland(Ísland) Aurora, featuring a glassmorphism design and soft aurora gradients. By leveraging component-based architecture, reusability, responsive layouts, and single-page routing, you can use this solution to rapidly build custom interfaces. Built with React & Tailwind. Mozilla Public License 2.0, friendly for commercial use.<br />
+「Aurorαqua」is a React component library and WebUI template. This name combined with Aurora&Aqua. It draws inspiration from elements of the "Liquid Glass" aesthetic—such as edge highlights and floating components—while establishing a base material style tailored to my own preferences; the overall look could best be described as "Iced Jelly" 🤓. It creates a sense of layered depth through heavy shadow blurring and fluid light effects, aiming to evoke the delicious, textured feel of jelly with icy inclusions 😋. Built with modularity, reusability, responsive layouts, and single-page routing in mind, it helps you rapidly create custom interfaces. Inspired by Apple LiquidGlass Design and Iceland(Ísland) Aurora, Built with React & Tailwind. Mozilla Public License 2.0, friendly for commercial use.<br />
 For Windows Users, please Install the Monaco and PingFang-SC fonts to attain the suspected experience.<br />
 ⚠️This serves only to showcase my personal UI preferences; most features have not been developed yet, and remains far from complete currently.<br />
 Tauri app versions for macOS and Windows are provided in the release.<br />
 However, it is recommended to run `npm install` and `npm run dev` in the terminal and access the application via a browser (tested in Firefox).
 
+
+「Aurorαqua」是一套React組件庫和WebUI模板，命名是極光Aurora和水Aqua的結合，參考了液態玻璃中我喜歡的部分（如邊角高光和浮動組件）並按自己的偏好確定了基本材質，整體風格應該叫...冰態果凍Iced Jelly🤓
+透過重陰影模糊和流動光效營造多層堆疊的空間感，總之就是模仿結了冰絮的果凍的那種美味的感覺😋
+遵循元件化、可複用性、響應式佈局、單頁路由，助您快速建立自訂介面。
 「Aurorαqua」是受 Apple LiquidGlass 設計風格和冰島極光啟發的 Web UI 模板，採用玻璃擬態設計與柔和的極光漸變效果。遵循元件化、可複用性、響應式佈局、單頁路由，助您快速建立自訂介面。基於 React 和 Tailwind 構建。採用 Mozilla Public License 2.0 協議，支援商業用途。<br />
 對於Windows用戶，由於字體並非系統預先安裝，建議安裝Monaco字體和PingFang SC字體以獲得預期體驗。<br />
 ⚠️目前僅供個人UI喜好展示，大部分功能仍不完善。<br />
