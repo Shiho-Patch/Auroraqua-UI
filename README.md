@@ -6,17 +6,17 @@
 [![React](https://img.shields.io/badge/React-18+-61dafb.svg)](https://reactjs.org/)
 [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.0+-38bdf8.svg)](https://tailwindcss.com/)
 
-「Aurorαqua」is a React component library and WebUI template. This name combined with Aurora&Aqua. It draws inspiration from elements of the "Liquid Glass" aesthetic—such as edge highlights and floating components—while establishing a base material style tailored to my own preferences; the overall look could best be described as "Iced Jelly" 🤓. It creates a sense of layered depth through heavy shadow blurring and fluid light effects, aiming to evoke the delicious, textured feel of jelly with icy inclusions 😋. Built with modularity, reusability, responsive layouts, and single-page routing in mind, it helps you rapidly create custom interfaces. Inspired by Apple LiquidGlass Design and Iceland(Ísland) Aurora, Built with React & Tailwind. Mozilla Public License 2.0, friendly for commercial use.<br />
+「Aurorαqua」is a React component library and WebUI template. This name combined with Aurora&Aqua. It draws inspiration from elements of the "Liquid Glass" aesthetic—such as edge highlights and floating components—while establishing a base material style tailored to my own preferences; the overall look could best be described as "Iced Jelly" 🤓. It creates a sense of layered depth through heavy shadow blurring and fluid light effects, aiming to evoke the delicious, textured feel of jelly with icy inclusions 😋. <br />
+Built with modularity, reusability, responsive layouts, and single-page routing in mind, it helps you rapidly create custom interfaces. <br />
+Inspired by Apple LiquidGlass Design and Iceland(Ísland) Aurora, Built with React & Tailwind. Mozilla Public License 2.0, friendly for commercial use.<br />
 For Windows Users, please Install the Monaco and PingFang-SC fonts to attain the suspected experience.<br />
 ⚠️This serves only to showcase my personal UI preferences; most features have not been developed yet, and remains far from complete currently.<br />
 Tauri app versions for macOS and Windows are provided in the release.<br />
 However, it is recommended to run `npm install` and `npm run dev` in the terminal and access the application via a browser (tested in Firefox).
 
 
-「Aurorαqua」是一套React組件庫和WebUI模板，命名是極光Aurora和水Aqua的結合，參考了液態玻璃中我喜歡的部分（如邊角高光和浮動組件）並按自己的偏好確定了基本材質，整體風格應該叫...冰態果凍Iced Jelly🤓
-透過重陰影模糊和流動光效營造多層堆疊的空間感，總之就是模仿結了冰絮的果凍的那種美味的感覺😋
-遵循元件化、可複用性、響應式佈局、單頁路由，助您快速建立自訂介面。
-「Aurorαqua」是受 Apple LiquidGlass 設計風格和冰島極光啟發的 Web UI 模板，採用玻璃擬態設計與柔和的極光漸變效果。遵循元件化、可複用性、響應式佈局、單頁路由，助您快速建立自訂介面。基於 React 和 Tailwind 構建。採用 Mozilla Public License 2.0 協議，支援商業用途。<br />
+「Aurorαqua」是一套React組件庫和WebUI模板，命名是極光Aurora和水Aqua的結合，參考了液態玻璃中我喜歡的部分（如邊角高光和浮動組件）並按自己的偏好確定了基本材質，整體風格應該叫...冰態果凍Iced Jelly🤓透過重陰影模糊和流動光效營造多層堆疊的空間感，總之就是模仿結了冰絮的果凍的那種美味的感覺😋遵循元件化、可複用性、響應式佈局、單頁路由，助您快速建立自訂介面。
+受 Apple LiquidGlass 設計風格和冰島極光啟發，基於 React 和 Tailwind 構建。採用 Mozilla Public License 2.0 協議，支援商業用途。<br />
 對於Windows用戶，由於字體並非系統預先安裝，建議安裝Monaco字體和PingFang SC字體以獲得預期體驗。<br />
 ⚠️目前僅供個人UI喜好展示，大部分功能仍不完善。<br />
 Release中提供了MacOS和Windows版本的Tauri App。<br />
@@ -41,7 +41,9 @@ Dashboard
 <img width="2772" height="1740" alt="Dashboard-Demo" src="https://github.com/user-attachments/assets/66cec11e-59b1-4998-bf67-2c21e36cda77" />
 
 
-Video Show:
+Video Show:<br />
+HD Review: https://youtu.be/k3Fi8uyB6ac?si=ASVeU-Se3HxmbOn7<br />
+高清演示影片：https://www.bilibili.com/video/BV1Xt3B6oE2m/<br />
 
 https://github.com/user-attachments/assets/a890538f-b194-48a9-b6c7-4d7d84eab832
 
@@ -89,25 +91,50 @@ Management Page
 src/
 ├── components/              # 组件目录
 │   ├── case3/              # Case3（多场景Demo）专用组件
-│   │   ├── Case3Sidebar.jsx    # Case3主侧边栏，导航到各子页面
-│   │   ├── NavBar.jsx          # Case3侧边栏展开/收起导航条
-│   │   ├── LiveChat.jsx        # 直播聊天组件，实时消息流展示
-│   │   ├── SocialHeader.jsx    # 社交页面顶部标签导航栏
-│   │   ├── SocialPost.jsx      # 社交帖子卡片，支持点赞、评论、分享
+│   │   ├── Case3Sidebar.jsx      # Case3主侧边栏，导航到各子页面
+│   │   ├── NavBar.jsx            # Case3导航条（控制侧边栏展开/收起）
+│   │   ├── LiveChat.jsx          # 直播聊天组件，实时消息流展示
+│   │   ├── SocialHeader.jsx      # 社交页面顶部标签导航栏
+│   │   ├── SocialPost.jsx        # 社交帖子卡片，支持点赞、评论、分享
 │   │   ├── SocialProfilePage.jsx # 用户个人资料页面
 │   │   ├── SocialRightPanel.jsx  # 社交页面右侧面板，显示动态源和热门话题
-│   │   ├── SocialSettingsPage.jsx # 社交设置页面
+│   │   ├── SocialSettingsPage.jsx# 社交设置页面
 │   │   ├── SocialSidebar.jsx     # 社交页面左侧导航菜单
-│   │   └── subpages/           # Case3子页面
-│   │       ├── ChatSubpage.jsx       # 即时通讯界面
-│   │       ├── DashboardSubpage.jsx  # 数据仪表盘
-│   │       ├── ForumSubpage.jsx      # 论坛界面
-│   │       ├── ManagementSubpage.jsx # 数据管理面板
-│   │       ├── MarkdownSubpage.jsx   # Markdown 编辑器
-│   │       ├── MindmapSubpage.jsx    # 思维导图
-│   │       ├── MusicSubpage.jsx      # 音乐播放器
-│   │       ├── SocialSubpage.jsx     # 社交媒体主页面
-│   │       └── VideoSubpage.jsx      # 视频播放器页面
+│   │   ├── ChatSidebar.jsx       # 聊天频道列表，支持文字/语音频道分类
+│   │   ├── ChatMembersPanel.jsx  # 聊天成员面板，按角色分组展示
+│   │   ├── SearchInput.jsx       # 通用搜索输入框，支持多尺寸
+│   │   ├── SidebarNavItem.jsx    # 侧边栏导航项，带激活态发光效果
+│   │   ├── MacOSAppIcon.jsx      # macOS 应用图标，支持运行指示
+│   │   ├── MacOSDock.jsx         # macOS Dock 栏，可拖拽重排、放大交互
+│   │   ├── MacOSMenuBar.jsx      # macOS 顶部菜单栏，含控制中心
+│   │   ├── MacOSWindow.jsx       # macOS 风格窗口，可拖动、聚焦、关闭
+│   │   ├── NotificationCenter.jsx# 通知中心，展示应用通知列表
+│   │   └── subpages/             # Case3子页面
+│   │       ├── ChatSubpage.jsx         # 即时通讯界面
+│   │       ├── DashboardSubpage.jsx    # 数据仪表盘
+│   │       ├── ForumSubpage.jsx        # 论坛界面
+│   │       ├── ManagementSubpage.jsx   # 数据管理面板
+│   │       ├── MarkdownSubpage.jsx     # Markdown 编辑器
+│   │       ├── MindmapSubpage.jsx      # 思维导图
+│   │       ├── MusicSubpage.jsx        # 音乐播放器
+│   │       ├── SocialSubpage.jsx       # 社交媒体主页面
+│   │       ├── VideoSubpage.jsx        # 视频播放器页面
+│   │       ├── PrtsSubpage.jsx         # 明日方舟干员展示页
+│   │       ├── PrtsOperatorGrid.jsx    # 干员网格卡片，含稀有度与状态
+│   │       ├── ClaimRewardAnimation.jsx# 领取奖励撒花动画
+│   │       ├── MacOSSubpage.jsx        # macOS 桌面环境模拟
+│   │       ├── LucideExposeSubpage.jsx # Lucide 图标浏览/复制页
+│   │       ├── LucideIconCard.jsx      # 单个 Lucide 图标卡片
+│   │       ├── ConfettiBoothSubpage.jsx# 五彩纸屑效果预览台
+│   │       ├── ConfettiCard.jsx        # 纸屑效果预览卡片
+│   │       └── badge/                  # 吧唧工坊子模块
+│   │           ├── BadgeSubpage.jsx        # 吧唧工坊主页面
+│   │           ├── BadgeUploader.jsx       # 图片上传组件，支持拖拽
+│   │           ├── BadgeShapeSelector.jsx  # 吧唧形状选择器
+│   │           ├── BadgeMaterialSelector.jsx# 吧唧材质选择器
+│   │           ├── BadgeEffectControls.jsx # 吧唧特效控制面板
+│   │           ├── BadgePreview.jsx        # 吧唧 3D 预览，可拖动旋转
+│   │           └── BadgeExport.jsx         # 吧唧导出/复制样式
 │   ├── case2/              # Case2专有组件
 │   │   ├── Case2Sidebar.jsx    # Case2侧边栏，模型选择与参数配置
 │   │   ├── ControlPanel.jsx    # 图像处理控制面板，调节各项参数
@@ -141,7 +168,18 @@ src/
 │   │   ├── Switch.jsx           # 开关组件，玻璃态样式
 │   │   ├── TabButton.jsx        # 标签按钮，支持激活状态
 │   │   ├── TodoItem.jsx         # 待办事项项
-│   │   └── UserAvatar.jsx       # 用户头像组件
+│   │   ├── UserAvatar.jsx       # 用户头像组件
+│   │   ├── AnimatedNumber.jsx   # 数字滚动动画组件
+│   │   ├── MarkdownLine.jsx     # Markdown 单行渲染，带逐行入场动画
+│   │   ├── Parallax.jsx         # 视差滚动 Hook 与背景组件
+│   │   ├── ParticleEffect.jsx   # 粒子爆裂特效，基于 Portal 渲染
+│   │   ├── PillTabBar.jsx       # 胶囊式标签栏，带滑动指示器
+│   │   ├── PillTabNude.jsx      # 极简胶囊标签栏（无背景）
+│   │   ├── RippleButton.jsx     # 涟漪效果按钮
+│   │   ├── Skeleton.jsx         # 骨架屏组件，带 shimmer 动画
+│   │   ├── TiltCard.jsx         # 3D 倾斜卡片，跟随鼠标透视
+│   │   ├── ToastContainer.jsx   # 全局 Toast 容器，配合 AnimatePresence
+│   │   └── animations.jsx       # 通用动画变体与组件集合
 │   └── DynamicStyles.jsx   # 动态样式管理
 ├── pages/                  # 页面入口组件
 │   ├── Init.jsx            # 初始化页面，项目介绍与导航入口
@@ -155,14 +193,16 @@ src/
 ├── hooks/                  # 自定义 Hooks
 │   └── useContrastColor.js     # 对比度颜色计算 Hook
 ├── data/                   # 静态数据
-│   └── case3/              # Case3各子页面的模拟数据
-│       ├── chat.js             # 聊天数据
-│       ├── dashboard.js        # 仪表盘数据
-│       ├── forum.js            # 论坛数据
-│       ├── management.js       # 管理面板数据
-│       ├── music.js            # 音乐播放器数据
-│       ├── social.js           # 社交帖子数据
-│       └── video.js            # 视频页面数据
+│   ├── case3/              # Case3各子页面的模拟数据
+│   │   ├── chat.js             # 聊天数据
+│   │   ├── confetti.js         # 五彩纸屑预设方案
+│   │   ├── dashboard.js        # 仪表盘数据
+│   │   ├── forum.js            # 论坛数据
+│   │   ├── management.js       # 管理面板数据
+│   │   ├── music.js            # 音乐播放器数据
+│   │   ├── social.js           # 社交帖子数据
+│   │   └── video.js            # 视频页面数据
+│   └── lucideCategories.js    # Lucide 图标分类数据
 ├── config/                 # 配置
 │   └── backgroundSchemes.js    # 背景配色方案配置
 ├── __mocks__/              # Mock 文件
@@ -174,6 +214,7 @@ src/
 ├── index.css               # 全局样式，玻璃态效果定义
 ├── main.jsx                # 入口文件
 └── setupTests.js           # 测试配置
+
 ```
 
 ## 🎨 Visual & Design Features
