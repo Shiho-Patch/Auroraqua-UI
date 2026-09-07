@@ -15,14 +15,13 @@ Tauri app versions for macOS and Windows are provided in the release.<br />
 However, it is recommended to run `npm install` and `npm run dev` in the terminal and access the application via a browser (tested in Firefox).
 
 
-「Aurorαqua」是一套React組件庫和WebUI模板，命名是極光Aurora和水Aqua的結合，參考了液態玻璃中我喜歡的部分（如邊角高光和浮動組件）並按自己的偏好確定了基本材質，整體風格應該叫...冰態果凍Iced Jelly🤓透過重陰影模糊和流動光效營造多層堆疊的空間感，總之就是模仿結了冰絮的果凍的那種美味的感覺😋遵循元件化、可複用性、響應式佈局、單頁路由，助您快速建立自訂介面。
-受 Apple LiquidGlass 設計風格和冰島極光啟發，基於 React 和 Tailwind 構建。採用 Mozilla Public License 2.0 協議，支援商業用途。<br />
-對於Windows用戶，由於字體並非系統預先安裝，建議安裝Monaco字體和PingFang SC字體以獲得預期體驗。<br />
-⚠️目前僅供個人UI喜好展示，大部分功能仍不完善。<br />
+「Aurorαqua」是一套React组件库和WebUI模板，命名是极光Aurora和水Aqua的结合，参考了液态玻璃中我喜欢的部分（如边角高光和浮动组件）并按自己的偏好确定了基本材质，整体风格应该叫...冰态果冻Iced Jelly🤓透过重阴影模糊和流动光效营造多层堆叠的空间感，总之就是模仿结了冰絮的果冻的那种美味的感觉😋遵循元件化、可复用性、响应式布局、单页路由，助您快速建立自订介面。
+受 Apple LiquidGlass 设计风格和冰岛极光启发，基于 React 和 Tailwind 构建。采用 Mozilla Public License 2.0 协议，支援商业用途。<br />
+对于Windows用户，由于字体并非系统预先安装，建议安装Monaco字体和PingFang SC字体以获得预期体验。<br />
+⚠️目前仅供个人UI喜好展示，大部分功能仍不完善。<br />
 Release中提供了MacOS和Windows版本的Tauri App。<br />
-但更建議在終端機中執行npm install和npm run dev以使用瀏覽器訪問（測試環境：FireFox）
+但更建议在终端机中执行npm install和npm run dev以使用浏览器访问（测试环境：FireFox）
 
-🔴对于简体中文用户，demo中图片视频素材使用了来自YouTube和BlaueSky等网站的链接，请自觉使用魔法以正常加载资源。
 
 # Components Demos(in /case3):
 Messenger(imitate Discord)
@@ -224,9 +223,9 @@ src/
 * **Refined Control Components**: Carefully calibrated UI elements, including sidebars, status badges, grouped setting blocks, sliders, and smooth toggle switches.
 * **Minimalist & Stream-Friendly**: Utilizes a spacious, minimalist center layout—perfectly tailored for high-dynamic content such as video streams, canvases, and core data visualizations.
 
-## 🎨 視覺與設計特性 
-* **靈動導航條**：帶有流暢動畫效果，用以顯示/隱藏側邊欄。
-* **極光漸變背景**：採用細膩、柔和的粉紫調漸變，營造充滿現代感與溫馨氛圍的視覺基調。
-* **景深毛玻璃質感**：玻璃材質的懸浮卡片設計，自帶優雅的邊框高光與背景模糊，提供絕佳的空間層次感。
-* **精緻的控制組件**：精心調校的側邊欄、狀態標籤、分組設定區塊、滑動條及平滑的切換開關。
-* **極簡圖表與串流友善**：中心區域採用大面積留白設計，完美適配視訊串流、畫布、核心資料視覺化等高動態內容的展示。
+## 🎨 视觉与设计特性 
+* **灵动导航条**：带有流畅动画效果，用以显示/隐藏侧边栏。
+* **极光渐变背景**：采用细腻、柔和的粉紫调渐变，营造充满现代感与温馨氛围的视觉基调。
+* **景深毛玻璃质感**：玻璃材质的悬浮卡片设计，自带优雅的边框高光与背景模糊，提供绝佳的空间层次感。
+* **精致的控制组件**：精心调校的侧边栏、状态标签、分组设定区块、滑动条及平滑的切换开关。
+* **极简图表与串流友善**：中心区域采用大面积留白设计，完美适配视讯串流、画布、核心资料视觉化等高动态内容的展示。
